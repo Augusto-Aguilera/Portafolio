@@ -1,208 +1,221 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Patrick Aguilera - Desarrollador web freelance. Creo páginas web modernas para negocios, restaurantes, gimnasios y empresas.">
-<meta name="keywords" content="desarrollador web, diseño web, paginas web, freelance, HTML CSS JavaScript">
-<meta name="author" content="Patrick Aguilera">
-<title>Patrick Aguilera | Desarrollador Web</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Patrick Aguilera - Desarrollador web freelance en San Luis.">
+    <title>Patrick Aguilera | Desarrollador Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
 
-<nav>
-
-<h2 class="logo">Patrick Aguilera</h2>
-
-<div class="menu-toggle">
-☰
-</div>
-
-<ul class="nav-links">
-<li><a href="#about">Sobre mí</a></li>
-<li><a href="#projects">Proyectos</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#contact">Contacto</a></li>
-</ul>
-
+<nav class="navbar">
+    <div class="nav-container">
+        <h2 class="logo">Patrick Aguilera</h2>
+        <div class="menu-toggle" id="mobile-toggle">☰</div>
+        <ul class="nav-links" id="nav-list">
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </div>
 </nav>
 
 <header class="hero">
-
-<div class="hero-content">
-
-<h1>Patrick Aguilera</h1>
-
-<p>Desarrollador Web | HTML | CSS | JavaScript</p>
-
-<a href="#projects" class="btn">Ver proyectos</a>
-
-</div>
-
+    <div class="hero-container">
+        <div class="hero-content reveal">
+            <div class="status-badge">Disponible para nuevos proyectos</div>
+            <h1>Patrick Aguilera</h1>
+            <p class="hero-tagline">Desarrollador Web en formación | HTML | CSS | JavaScript</p>
+            <p class="hero-sub">Ayudo a negocios a tener presencia online con páginas web modernas.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn">Ver proyectos</a>
+                <a href="#contact" class="btn-outline">Hablemos</a>
+            </div>
+        </div>
+        <div class="hero-mountains"></div>
+    </div>
 </header>
 
-<section id="about">
-
-<h2>Sobre mí</h2>
-
-<p>
-Soy desarrollador web en formación apasionado por crear páginas modernas,
-rápidas y accesibles. Actualmente trabajo con HTML, CSS y JavaScript
-desarrollando proyectos reales y mejorando mis habilidades cada día.
-</p>
-
+<section id="about" class="reveal">
+    <h2>Sobre mí</h2>
+    <p>
+        Hola, soy Patrick Aguilera, desarrollador web en formación enfocado en ayudar a negocios a tener presencia online.
+        Creo páginas web modernas, rápidas y adaptadas a todos los dispositivos utilizando HTML, CSS y JavaScript.
+        Actualmente estoy en búsqueda de mi primera oportunidad laboral y también abierto a trabajos freelance.
+    </p>
 </section>
 
-<section id="services">
-
-<h2>Servicios de desarrollo web</h2>
-
-<ul>
-<li>Creación de páginas web para negocios</li>
-<li>Diseño de landing pages</li>
-<li>Desarrollo web con HTML, CSS y JavaScript</li>
-<li>Optimización y diseño responsive</li>
-
-</ul>
-
+<section id="services" class="reveal bg-alt">
+    <h2>Servicios</h2>
+    <div class="services-container">
+        <div class="service-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Desarrollo Web</h3>
+            <p>Creación de sitios modernos utilizando HTML, CSS y JavaScript.</p>
+        </div>
+        <div class="service-card">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h3>Diseño Responsive</h3>
+            <p>Páginas adaptadas para verse perfectamente en cualquier dispositivo.</p>
+        </div>
+        <div class="service-card">
+            <i class="fa-solid fa-rocket"></i>
+            <h3>Publicación Web</h3>
+            <p>Subo tu sitio a internet para que tu negocio empiece a crecer hoy.</p>
+        </div>
+    </div>
 </section>
 
-<section id="projects">
-
-<h2>Mis Proyectos</h2>
-
-<div class="projects">
-
-<div class="project-card">
-
-<img src="img/LaBuenaMesa.png" alt="pagina restaurante">
-
-<div class="project-info">
-
-<h3>Web de Restaurante</h3>
-
-<p>Página moderna para restaurante con menú y galería.</p>
-
-<div class="project-links">
-
-<a href="https://labuenamesaok.netlify.app/" target="_blank">Ver sitio</a>
-
-<a href="#">Ver código</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="project-card">
-
-<img src="img/DreamTravel.png" alt="pagina viajes">
-
-<div class="project-info">
-
-<h3>Agencia de Viajes</h3>
-
-<p>Landing page para agencia de turismo.</p>
-
-<div class="project-links">
-
-<a href="https://dreamtravelok.netlify.app/" target="_blank">Ver sitio</a>
-
-<a href="#">Ver código</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="project-card">
-
-<img src="img/IronFit.png" alt="pagina gimnasio">
-
-<div class="project-info">
-
-<h3>Web de Gimnasio</h3>
-
-<p>Sitio promocional para gimnasio con planes.</p>
-
-<div class="project-links">
-
-<a href="https://ironfitgimok.netlify.app/" target="_blank">Ver sitio</a>
-
-<a href="#">Ver código</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
+<section id="workflow" class="reveal">
+    <h2>Mi Método de Trabajo</h2>
+    <div class="workflow-grid">
+        <div class="step">
+            <div class="step-num">01</div>
+            <h3>Reunión y Briefing</h3>
+            <p>Analizamos tus necesidades y los objetivos de tu negocio.</p>
+        </div>
+        <div class="step">
+            <div class="step-num">02</div>
+            <h3>Diseño y Estructura</h3>
+            <p>Creamos el esqueleto y la estética visual de tu futura web.</p>
+        </div>
+        <div class="step">
+            <div class="step-num">03</div>
+            <h3>Desarrollo y Testeo</h3>
+            <p>Programamos el sitio asegurando que funcione rápido y sin errores.</p>
+        </div>
+        <div class="step">
+            <div class="step-num">04</div>
+            <h3>Lanzamiento</h3>
+            <p>Publicamos la web y te entrego todo listo para funcionar.</p>
+        </div>
+    </div>
 </section>
 
-<section id="skills">
-
-<h2>Tecnologías</h2>
-
-<div class="skills">
-
-<span>HTML5</span>
-<span>CSS3</span>
-<span>JavaScript</span>
-<span>Responsive Design</span>
-
-</div>
-
+<section id="prices" class="reveal bg-alt">
+    <h2>Servicios y Precios</h2>
+    <div class="price-grid">
+        <div class="price-item"><h3>Landing Page</h3><p>Desde $50 USD</p></div>
+        <div class="price-item"><h3>Sitio Web</h3><p>Desde $100 USD</p></div>
+        <div class="price-item"><h3>Optimización</h3><p>Desde $30 USD</p></div>
+    </div>
 </section>
 
-<section id="contact">
+<section id="projects" class="reveal">
+    <h2>Mis Proyectos</h2>
+    <div class="projects">
+        
+        <div class="project-card featured-project">
+            <img src="img/cotizador.png" alt="Cotizador de Servicios Interactivo">
+            <div class="project-info">
+                <span class="badge-new">PROYECTO DESTACADO</span>
+                <h3>Cotizador Pro + Hub de Apps</h3>
+                <p>Herramienta avanzada para presupuestos en tiempo real, tracker de Criptomonedas, To-Do List y juegos interactivos.</p>
+                <div class="project-links">
+                    <a href="https://augusto-aguilera.github.io/cotizador-de-servicios-interactivo/" target="_blank">Probar Herramienta</a>
+                    <a href="https://github.com/Augusto-Aguilera/cotizador-de-servicios-interactivo" target="_blank">Código</a>
+                </div>
+            </div>
+        </div>
 
-<h2>Contacto</h2>
-<p>Teléfono: +54 2657 521775</p>
+        <div class="project-card">
+            <img src="img/LaBuenaMesa.png" alt="pagina restaurante">
+            <div class="project-info">
+                <h3>Web de Restaurante</h3>
+                <p>Sitio web para restaurante con menú interactivo y diseño responsive.</p>
+                <div class="project-links">
+                    <a href="https://augusto-aguilera.github.io/La-Buena-Mesa/" target="_blank">Sitio</a>
+                    <a href="https://github.com/Augusto-Aguilera/La-Buena-Mesa.git" target="_blank">Código</a>
+                </div>
+            </div>
+        </div>
 
-<p>¿Necesitas una página web para tu negocio?</p>
-<p>
-También puedes escribirme directamente por WhatsApp para consultas
-sobre desarrollo web.
-</p>
+        <div class="project-card">
+            <img src="img/DreamTravel.png" alt="pagina viajes">
+            <div class="project-info">
+                <h3>Agencia de Viajes</h3>
+                <p>Landing page moderna para agencia de turismo.</p>
+                <div class="project-links">
+                    <a href="https://augusto-aguilera.github.io/Dream-Travel/" target="_blank">Sitio</a>
+                    <a href="https://github.com/Augusto-Aguilera/Dream-Travel.git" target="_blank">Código</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="project-card">
+            <img src="img/IronFit.png" alt="pagina gimnasio">
+            <div class="project-info">
+                <h3>Web de Gimnasio</h3>
+                <p>Sitio promocional para gimnasio con planes de entrenamiento.</p>
+                <div class="project-links">
+                    <a href="https://augusto-aguilera.github.io/IronFit-Gym/" target="_blank">Sitio</a>
+                    <a href="https://github.com/Augusto-Aguilera/IronFit-Gym.git" target="_blank">Código</a>
+                </div>
+            </div>
+        </div>
 
-<form>
+        <div class="project-card">
+            <img src="img/skull-tap-PRO.png" alt="pagina de Juego">
+            <div class="project-info">
+                <h3>Skull Tap PRO</h3>
+                <p>Juego interactivo de rapidez mental desarrollado en JS puro.</p>
+                <div class="project-links">
+                    <a href="https://augusto-aguilera.github.io/Skull-Tap-PRO/" target="_blank">Sitio</a>
+                    <a href="https://github.com/Augusto-Aguilera/Skull-Tap-PRO" target="_blank">Código</a>
+                </div>
+            </div>
+        </div>
 
-<input type="text" placeholder="Nombre">
+        <div class="project-card">
+            <img src="img/mi to-do list.png" alt="pagina de Tareas">
+            <div class="project-info">
+                <h3>Mi To-Do List</h3>
+                <p>App de gestión de tareas con guardado en LocalStorage.</p>
+                <div class="project-links">
+                    <a href="https://augusto-aguilera.github.io/todo-list-pro/" target="_blank">Sitio</a>
+                    <a href="https://github.com/Augusto-Aguilera/todo-list-pro" target="_blank">Código</a>
+                </div>
+            </div>
+        </div>
 
-<input type="email" placeholder="Email">
+    </div>
+</section>
 
-<textarea placeholder="Mensaje"></textarea>
+<section id="skills" class="reveal">
+    <h2>Tecnologías</h2>
+    <div class="skills-grid">
+        <div class="skill-item"><i class="fa-brands fa-html5"></i><p>HTML5</p></div>
+        <div class="skill-item"><i class="fa-brands fa-css3-alt"></i><p>CSS3</p></div>
+        <div class="skill-item"><i class="fa-brands fa-js"></i><p>JavaScript</p></div>
+        <div class="skill-item"><i class="fa-brands fa-github"></i><p>GitHub</p></div>
+    </div>
+</section>
 
-<button type="submit">Enviar</button>
-
-<a href="https://wa.me/542657521775?text=Hola%20Patrick,%20vi%20tu%20portafolio%20y%20quiero%20consultarte%20por%20una%20página%20web" target="_blank">
-Contactar por WhatsApp
-</a>
-</form>
-
+<section id="contact" class="reveal">
+    <div class="cta-box">
+        <h2>¿Necesitas una página web?</h2>
+        <p>Hablemos sobre cómo puedo ayudarte a crecer online.</p>
+    </div>
+    <form class="contact-form" id="contact-form">
+        <input type="text" id="name" placeholder="Tu Nombre" required>
+        <input type="email" id="email" placeholder="Tu Email" required>
+        <textarea id="message" placeholder="¿En qué puedo ayudarte?" required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+        <a href="https://wa.me/542657521775" target="_blank" class="btn-wa">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp Directo
+        </a>
+    </form>
 </section>
 
 <footer>
-
-<p>© 2026 Patrick Aguilera</p>
-
+    <p>© 2026 Patrick Aguilera | Villa Mercedes, San Luis</p>
 </footer>
-<a href="https://wa.me/542657521775" class="whatsapp-btn" target="_blank">
-💬
-</a>
+
+<a href="https://wa.me/542657521775" class="whatsapp-btn" target="_blank">💬</a>
+
 <script src="script.js"></script>
-
 </body>
-
 </html>
