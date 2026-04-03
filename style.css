@@ -83,7 +83,7 @@ h2::after { content: ''; display: block; width: 40px; height: 3px; background: v
 .catalog-pro-box { 
     border: 2px solid var(--accent-cyan) !important; 
     background: linear-gradient(145deg, #0f172a, #1e293b) !important;
-    grid-column: 1 / -1; /* Ocupa todo el ancho */
+    grid-column: 1 / -1; 
 }
 .catalog-pro-box:hover {
     box-shadow: 0 10px 40px rgba(0, 210, 255, 0.2);
